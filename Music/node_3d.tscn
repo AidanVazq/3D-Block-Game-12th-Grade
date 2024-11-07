@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv86nykknwb4n"]
+
+[ext_resource type="AudioStream" uid="uid://crh2au845ybil" path="res://Music/Tripping on Love.mp3" id="1_vmd7r"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_vmd7r")
+volume_db = -20.0
+autoplay = true

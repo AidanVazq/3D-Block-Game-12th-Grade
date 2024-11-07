@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://buubgi5b3o3nf"]
+
+[ext_resource type="Script" path="res://enemy.gd" id="1_kfld6"]
+[ext_resource type="PackedScene" uid="uid://cnvracjkq6wv5" path="res://downloads/biker/scene.gltf" id="1_vhuid"]
+[ext_resource type="Script" path="res://CollisionShape3D.gd" id="2_d1cnp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7aag0"]
+size = Vector3(2.34155, 3.42639, 1)
+
+[node name="enemy" type="CharacterBody3D"]
+script = ExtResource("1_kfld6")
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("1_vhuid")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." groups=["enemy"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00231934, 1.2132, 0)
+shape = SubResource("BoxShape3D_7aag0")
+script = ExtResource("2_d1cnp")
+
+[connection signal="body_part_hit" from="CollisionShape3D" to="." method="_on_collision_shape_3d_body_part_hit"]

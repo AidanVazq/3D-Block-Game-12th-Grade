@@ -1,0 +1,54 @@
+[gd_scene load_steps=5 format=3 uid="uid://dij8srlofq3fa"]
+
+[ext_resource type="PackedScene" uid="uid://bey0dru1jewti" path="res://Models/karambit/scene.gltf" id="1_ve1sw"]
+
+[sub_resource type="Animation" id="Animation_3dr7i"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("karambit_model:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_4b447"]
+resource_name = "attack"
+length = 0.1
+step = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("karambit_model:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.01, 0.1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, -1), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_rxdsd"]
+_data = {
+"RESET": SubResource("Animation_3dr7i"),
+"attack": SubResource("Animation_4b447")
+}
+
+[node name="karambit" type="Node3D"]
+
+[node name="karambit_model" parent="." instance=ExtResource("1_ve1sw")]
+transform = Transform3D(0.002, 0, 0, 0, 0.002, 0, 0, 0, 0.002, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="karambit_model"]
+cast_shadow = 0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_rxdsd")
+}

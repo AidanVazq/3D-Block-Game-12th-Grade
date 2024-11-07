@@ -1,0 +1,111 @@
+[gd_scene load_steps=11 format=4 uid="uid://c4p0rnjn77o3b"]
+
+[ext_resource type="Texture2D" uid="uid://djr7ar7pnjcl5" path="res://Models/drive-download-20241002T173015Z-001/Diamond_Blocks_PixelArt.png" id="1_5j6vb"]
+[ext_resource type="Texture2D" uid="uid://b3256vhw3qlim" path="res://Models/drive-download-20241002T173015Z-001/Coal_Blocks_PixelArt.png" id="2_tedte"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bjjv0"]
+resource_name = "Blocks_Pixelart"
+cull_mode = 2
+albedo_texture = ExtResource("1_5j6vb")
+roughness = 0.5
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_igq5x"]
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAADAAEAAAACAAMAAgAHAAMAAgAGAAcABgAFAAcABgAEAAUABAABAAUABAAAAAEAAgAEAAYAAgAAAAQABwABAAMABwAFAAEA"),
+"name": "Blocks_Pixelart",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAA//8AAAAA/////wAA//8AAP//AAD///////8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_3j5i8"]
+resource_name = "Diamond_Cube_000"
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("tjPRMrYzkwD0ZdEytjOTALYz0TL0ZZMAtjPRMrYz0TL0ZdEytjOTALYzkwD0ZZMA9GXRMrYz0TL0ZZMA9GWTALYzkwD0ZdEy9GXRMvRl0TK2M9Ey9GWTAPRlkwC2M5MA"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AgAKAAUAAgAHAAoACAAXAAsACAAUABcAEgAQABUAEgANABAADAADAA8ADAAAAAMABgAOABMABgABAA4AFgAEAAkAFgARAAQA"),
+"material": SubResource("StandardMaterial3D_bjjv0"),
+"name": "Blocks_Pixelart",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAA/78AAAAAAABU1QAAAAAAAP//AAD//wAA/78AAP//AABU1QAA//8AAP////8AAAAAVNX//wAAAAD/////AAAAAP+//////wAAVNX/////AAD///////8AAP+/AAAAAP///78AAAAA//8AgAAAAAD//1TVAAD//////78AAP////8AgAAA/////1TV//8AAP//AID//wAA//9U1f//AAD///+/////////AID///////9U1f////////+//3///6oqVNX/f////3///6qqqqr/f///qipU1f9/////fwAAqqqqqv9/////fwAA/3////9///+qKlTV/3////9///+qqqqq/3///6oqVNX/fwAA/3///6qqqqr/fwAA")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_igq5x")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_prhvd"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ub21"]
+resource_name = "Blocks_Pixelart"
+cull_mode = 2
+albedo_texture = ExtResource("2_tedte")
+roughness = 0.5
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_3uvl4"]
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAADAAEAAAACAAMAAgAHAAMAAgAGAAcABgAFAAcABgAEAAUABAABAAUABAAAAAEAAgAEAAYAAgAAAAQABwABAAMABwAFAAEA"),
+"name": "Blocks_Pixelart",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAAAAP//AAAAAP//AAAAAAAA/////wAAAAAAAAAA//8AAAAA/////wAA//8AAP//AAD///////8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_dqmvq"]
+resource_name = "Coal_Cube_324"
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("SADRMkgAkwCGMtEySACTAEgA0TKGMpMASADRMkgA0TKGMtEySACTAEgAkwCGMpMAhjLRMkgA0TKGMpMAhjKTAEgAkwCGMtEyhjLRMoYy0TJIANEyhjKTAIYykwBIAJMA"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AgAKAAUAAgAHAAoACAAXAAsACAAUABcAEgAQABUAEgANABAADAADAA8ADAAAAAMABgAOABMABgABAA4AFgAEAAkAFgARAAQA"),
+"material": SubResource("StandardMaterial3D_2ub21"),
+"name": "Blocks_Pixelart",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAA/78AAAAAAABU1QAAAAAAAP//AAD//wAA/78AAP//AABU1QAA//8AAP////8AAAAAVNX//wAAAAD/////AAAAAP+//////wAAVNX/////AAD///////8AAP+/AAAAAP///78AAAAA//8AgAAAAAD//1TVAAD//////78AAP////8AgAAA/////1TV//8AAP//AID//wAA//9U1f//AAD///+/////////AID///////9U1f////////+//3///6oqVNX/f////3///6qqqqr/f///qipU1f9/////fwAAqqqqqv9/////fwAA/3////9///+qKlTV/3////9///+qqqqq/3///6oqVNX/fwAA/3///6qqqqr/fwAA")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_3uvl4")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_brikc"]
+
+[node name="Coal & Diamond blocks | New" type="Node3D"]
+
+[node name="GridMap" type="GridMap" parent="."]
+
+[node name="Diamond" type="MeshInstance3D" parent="GridMap"]
+mesh = SubResource("ArrayMesh_3j5i8")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="GridMap/Diamond"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridMap/Diamond/StaticBody3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+shape = SubResource("BoxShape3D_prhvd")
+
+[node name="Coal" type="MeshInstance3D" parent="GridMap"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0)
+mesh = SubResource("ArrayMesh_dqmvq")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="GridMap/Coal"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GridMap/Coal/StaticBody3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+shape = SubResource("BoxShape3D_brikc")

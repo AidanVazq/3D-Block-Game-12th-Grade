@@ -1,0 +1,11 @@
+Model Information:
+* title:	Biker
+* source:	https://sketchfab.com/3d-models/biker-4f4409e8093f48b599416881b44cdab6
+* author:	artrobot (https://sketchfab.com/artrobot)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Biker" (https://sketchfab.com/3d-models/biker-4f4409e8093f48b599416881b44cdab6) by artrobot (https://sketchfab.com/artrobot) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

@@ -1,0 +1,108 @@
+[gd_scene load_steps=3 format=3 uid="uid://qa7rvcaa5c08"]
+
+[ext_resource type="PackedScene" uid="uid://ccfhruk121oiv" path="res://Models/enemy/scene.gltf" id="1_17rvr"]
+[ext_resource type="Script" path="res://Scripts/Enemy.gd" id="1_c16u5"]
+
+[node name="Enemy" type="Node3D"]
+transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0)
+script = ExtResource("1_c16u5")
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("1_17rvr")]
+
+[node name="Skeleton3D" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4" index="0"]
+bones/1/rotation = Quaternion(-8.65941e-17, 0.711201, -0.702989, -5.0284e-19)
+bones/2/rotation = Quaternion(-0.552973, 0.830941, -0.0309156, 0.0529386)
+bones/3/rotation = Quaternion(0.0230819, 0.136374, -0.00129381, 0.990388)
+bones/4/rotation = Quaternion(-0.113547, -0.451493, -0.0433002, 0.88396)
+bones/7/rotation = Quaternion(-0.0309156, 0.0529386, -0.552973, 0.830941)
+bones/8/rotation = Quaternion(-0.0230819, -0.136374, -0.00129381, 0.990388)
+bones/9/rotation = Quaternion(0.11365, 0.453594, -0.0430301, 0.882884)
+bones/10/rotation = Quaternion(0.0536054, 0.34494, -0.0197363, 0.936885)
+bones/12/rotation = Quaternion(0.0782365, 1.22185e-16, -8.2665e-18, 0.996935)
+bones/13/rotation = Quaternion(-0.0799531, -7.1468e-26, -4.89358e-25, 0.996799)
+bones/14/rotation = Quaternion(-0.470359, 0.52923, -0.52446, 0.472884)
+bones/15/rotation = Quaternion(-0.0414585, -0.0633, 0.332373, 0.940108)
+bones/16/rotation = Quaternion(8.73421e-10, -1.06031e-08, -0.343942, 0.938991)
+bones/17/rotation = Quaternion(-0.196546, -0.284907, -0.32807, 0.878958)
+bones/18/rotation = Quaternion(0.292752, -0.0143841, -0.472375, 0.831235)
+bones/19/rotation = Quaternion(-0.316296, -0.0646129, -0.0215986, 0.946211)
+bones/22/rotation = Quaternion(0.0794275, 0.233924, 0.225395, 0.942427)
+bones/23/rotation = Quaternion(-0.164961, 0.00622049, 0.00104041, 0.98628)
+bones/24/rotation = Quaternion(-0.164285, 0.0348578, 0.00580923, 0.98578)
+bones/26/rotation = Quaternion(0.0285649, 0.219444, 0.361579, 0.905698)
+bones/27/rotation = Quaternion(-0.151786, 0.0023315, 0.000358038, 0.988411)
+bones/28/rotation = Quaternion(-0.103208, 0.0050515, 0.000524172, 0.994647)
+bones/30/rotation = Quaternion(-0.0682403, 0.197633, 0.517975, 0.82945)
+bones/31/rotation = Quaternion(-0.210605, -0.0251598, -0.00542222, 0.977232)
+bones/32/rotation = Quaternion(-0.132006, 0.0129473, 0.00172436, 0.991163)
+bones/34/rotation = Quaternion(-0.149363, 0.159708, 0.622867, 0.751146)
+bones/35/rotation = Quaternion(-0.190306, -0.00612084, -0.00118654, 0.981705)
+bones/36/rotation = Quaternion(-0.242654, -0.0165396, -0.00413769, 0.969963)
+bones/38/rotation = Quaternion(0.470306, 0.529277, -0.524413, -0.472936)
+bones/39/rotation = Quaternion(-0.0419732, 0.0629599, -0.339841, 0.937434)
+bones/40/rotation = Quaternion(1.13173e-09, 1.05786e-08, 0.366737, 0.930325)
+bones/41/rotation = Quaternion(-0.186334, 0.22619, 0.351005, 0.889333)
+bones/42/rotation = Quaternion(0.292752, 0.0143841, 0.472375, 0.831235)
+bones/43/rotation = Quaternion(-0.316296, 0.0646129, 0.0215986, 0.946211)
+bones/46/rotation = Quaternion(0.0794275, -0.233924, -0.225395, 0.942427)
+bones/47/rotation = Quaternion(-0.164961, -0.00622049, -0.00104041, 0.98628)
+bones/48/rotation = Quaternion(-0.164285, -0.0348578, -0.00580923, 0.98578)
+bones/50/rotation = Quaternion(0.0285649, -0.219444, -0.361579, 0.905698)
+bones/51/rotation = Quaternion(-0.151786, -0.0023315, -0.000358038, 0.988411)
+bones/52/rotation = Quaternion(-0.103208, -0.0050515, -0.000524157, 0.994647)
+bones/54/rotation = Quaternion(-0.0682403, -0.197633, -0.517975, 0.82945)
+bones/55/rotation = Quaternion(-0.210605, 0.0251598, 0.00542222, 0.977232)
+bones/56/rotation = Quaternion(-0.132006, -0.0129473, -0.00172436, 0.991163)
+bones/58/rotation = Quaternion(-0.149363, -0.159708, -0.622867, 0.751146)
+bones/59/rotation = Quaternion(-0.190306, 0.00612084, 0.00118654, 0.981705)
+bones/60/rotation = Quaternion(-0.242654, 0.0165396, 0.00413769, 0.969963)
+bones/73/rotation = Quaternion(-0.144361, 1.32733e-26, -8.81428e-25, 0.989525)
+bones/74/rotation = Quaternion(0.151807, 5.57906e-18, -3.63251e-17, 0.98841)
+bones/77/rotation = Quaternion(-0.727748, 2.28196e-08, 1.53676e-08, 0.685845)
+
+[node name="base_pistolLow_0" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/Skeleton3D" index="0"]
+transform = Transform3D(-0.089553, 0.00366896, -0.995975, -0.995796, -0.0196567, 0.0894643, -0.0192495, 0.9998, 0.00541398, -85.1114, 142.6, -2.41299)
+
+[node name="mag_pistolLow_0" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/Skeleton3D" index="1"]
+transform = Transform3D(-0.089553, -0.31125, -0.946099, -0.995796, 0.00962145, 0.0910916, -0.0192495, 0.950279, -0.310803, -84.8642, 142.608, -3.95142)
+
+[node name="bullet_pistolLow_0" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/Skeleton3D" index="2"]
+transform = Transform3D(-0.089553, 0.00366899, -0.995975, -0.995796, -0.0196567, 0.0894643, -0.0192495, 0.9998, 0.00541398, -86.5278, 142.636, 2.33761)
+
+[node name="slide_pistolLow_0" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/Skeleton3D" index="3"]
+transform = Transform3D(-0.089553, 0.00366896, -0.995975, -0.995796, -0.0196567, 0.0894643, -0.0192495, 0.9998, 0.00541398, -87.7328, 142.705, 4.39404)
+
+[node name="trigger_pistolLow_0" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/Skeleton3D" index="4"]
+transform = Transform3D(-0.089553, 0.00366896, -0.995975, -0.995796, -0.0196567, 0.0894643, -0.0192495, 0.9998, 0.00541398, -90.4915, 143.015, 1.18078)
+
+[node name="Object_7" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/Skeleton3D" index="5"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, -161.907, 3.59505e-14)
+
+[node name="hipcontrol" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4" index="5"]
+transform = Transform3D(-1, -8.74163e-08, -1.06587e-09, -1.22444e-16, 0.0121921, -0.999926, 8.74228e-08, -0.999926, -0.0121921, -6.03469e-19, 90.1045, 0.932066)
+
+[node name="headcontrol" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/hipcontrol" index="0"]
+transform = Transform3D(1, 2.98672e-18, 0, -2.9865e-18, 0.999926, -0.0121942, -3.64207e-20, 0.0121942, 0.999925, 8.80827e-15, 0.598101, -71.1074)
+
+[node name="spinecontrol" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/hipcontrol" index="1"]
+transform = Transform3D(1, 2.41831e-16, -2.81354e-17, -2.43444e-16, 0.991817, -0.127667, -2.96883e-18, 0.127667, 0.991817, 2.79668e-15, 8.88178e-16, -22.5632)
+
+[node name="chestcontrol" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/hipcontrol/spinecontrol" index="0"]
+transform = Transform3D(0.999999, 2.44482e-16, -1.0455e-17, -2.43066e-16, 0.99733, 0.0730195, 2.8279e-17, -0.0730194, 0.997331, 1.42683e-15, 0.654275, -21.0935)
+
+[node name="R_arm_Goal" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/hipcontrol/spinecontrol/chestcontrol" index="1"]
+transform = Transform3D(0.172559, 0.533315, -0.82813, 0.984994, -0.0906276, 0.146881, 0.00328246, -0.841048, -0.540951, 19.493, 3.57192, -12.7259)
+
+[node name="R_wrist_Goal" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/hipcontrol/spinecontrol/chestcontrol/R_arm_Goal" index="0"]
+transform = Transform3D(0.661683, -0.742506, 0.10422, 0.745669, 0.666206, 0.0121371, -0.0784437, 0.0696826, 0.99448, 7.71296, 27.9352, -47.4295)
+
+[node name="R_arm_Pole" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/hipcontrol/spinecontrol/chestcontrol/R_arm_Goal" index="1"]
+transform = Transform3D(0.878051, -0.0762053, 0.472461, 0, 0.98724, 0.159237, -0.478567, -0.139818, 0.866848, 37.439, 0.886552, -28.0795)
+
+[node name="L_arm_Goal" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/hipcontrol/spinecontrol/chestcontrol" index="2"]
+transform = Transform3D(0.172559, -0.533315, 0.82813, -0.984994, -0.0906276, 0.146881, -0.00328246, -0.841048, -0.540951, -19.493, 3.57192, -12.7259)
+
+[node name="L_wrist_Goal" parent="Sketchfab_Scene/Sketchfab_model/5aba3384ad68410283cc5e41b5860d63_fbx/Object_2/RootNode/Object_4/hipcontrol/spinecontrol/chestcontrol/L_arm_Goal" index="0"]
+transform = Transform3D(0.670777, 0.706234, -0.226477, -0.711135, 0.699153, 0.0739696, 0.210582, 0.111439, 0.971204, -7.71296, 27.9352, -47.4295)
+
+[editable path="Sketchfab_Scene"]
